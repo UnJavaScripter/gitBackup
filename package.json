@@ -1,0 +1,29 @@
+{
+  "name": "git-backup",
+  "version": "0.0.1",
+  "description": "A tool to \"backup\" your git repos",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "shelljs": "^0.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnJavaScripter/gitBackup.git"
+  },
+  "keywords": [
+    "git",
+    "github",
+    "backup"
+  ],
+  "author": "unJavaScripter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UnJavaScripter/gitBackup/issues"
+  },
+  "homepage": "https://github.com/UnJavaScripter/gitBackup#readme"
+}

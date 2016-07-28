@@ -3,9 +3,9 @@ So yesterday GitHub was down, I pushed my changes from the office but I wasn't a
 
 ### TL;DR
 1. `npm install`
-2. Inside the same machine clone a repo you want to keep updated all the time
+2. Inside the same machine, clone a repo you want to keep updated all the time
 3. `node app.js PORT REPO_PATH` like `node app.js 1337 ../myAwesomeApp`. [See Arguments](#arguments)
-4. Create [a webhook for your repo](https://developer.github.com/webhooks/) and make it call a 
+4. Create [a webhook for your repo](https://developer.github.com/webhooks/) and make it call your git server
 5. Setup [a git server](https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server)
 
 ##### Arguments
